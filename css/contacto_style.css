@@ -1,0 +1,63 @@
+main{
+ font-weight: bold;
+}
+
+.contacto label{
+   color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contacto{
+ padding: 15px;   
+}
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea{
+  background-color: #3b6e9d; 
+  border: 0;
+  border-radius: 3px;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  outline: none;
+  transition: 
+}
+
+.contacto input[type="text"]:focus,
+.contacto input[type="email"]:focus,
+.contacto textarea:focus{
+    box-shadow: 0 0 0 3px #89d123; 
+    background-color: #367dbe;
+}
+
+.contacto input[type="submit"]:hover{
+    background: linear-gradient(black,#d0349a);
+   }
+
+.contacto input[type="submit"]{
+ background: linear-gradient(black,red);
+ border: 1px solid #206196;
+ box-shadow: inset 0 2px 0 #465fe8, 0 1px 1px #206196;
+ border-radius: 3px;
+ color: white;
+ font-size: 14px;
+ padding: 15px;
+ cursor: pointer;
+ outline: none;
+}
+
+.contacto textarea{
+ resize: vertical;       
+}
+
+.contacto input[type="submit"]:active{
+ background: linear-gradient(black,red);
+ box-shadow: inset 0 2px 0 #a5e846, 0 1px 1px #206196;
+    
+}
